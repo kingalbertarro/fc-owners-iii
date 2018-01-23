@@ -27,7 +27,7 @@ body {  }
 #p-header a img { display: block; }
 /* BANNER */
 #p-banner {
- background: #ede4e0;
+ background: #eee;
  display: block;
  margin: 0 auto;
  position: relative;
@@ -160,10 +160,7 @@ body {  }
 
 /* POINTS */
 .pointers {
- background-image: url('../images/common/point-bg.png');
- background-position: center;
- background-repeat: no-repeat;
- background-size: cover;
+ background-color: #1776c6;
  padding: 50px 0;
  position: relative;
 }
@@ -190,19 +187,16 @@ body {  }
  margin: 0 auto;
  overflow: hidden;
  padding: 0 0 50px 0;
- width: 1025px;
+ width: 1060px;
 }
 .pointers ul.point-list li {
  background-color: #fff;
  display: block;
  float: left;
- margin-right: 40px;
- padding: 10px;
+ margin-right: 30px;
+ padding: 0;
  position: relative;
- width: 310px;
- -moz-box-shadow: 8px 8px 1px #74aec4;
- -webkit-box-shadow: 8px 8px 1px #74aec4;
- box-shadow: 8px 8px 1px rgba(118,178,201, 0.6);
+ width: 330px;
 }
 .pointers ul.point-list li:last-child { margin-right: 0; }
 .pointers ul.point-list li:before {
@@ -220,9 +214,6 @@ body {  }
  -moz-box-shadow: 1px 1px 10px #333;;
  -webkit-box-shadow: 1px 1px 10px #333;
 }
-.pointers ul.point-list li:nth-child(1):before { background-image: url('../images/common/point1.png'); }
-.pointers ul.point-list li:nth-child(2):before { background-image: url('../images/common/point2.png'); }
-.pointers ul.point-list li:nth-child(3):before { background-image: url('../images/common/point3.png'); }
 .pointers ul.point-list li figure { display: block; margin-bottom: 15px; overflow: hidden; }
 .pointers ul.point-list li figure img {
  object-fit: cover;
@@ -231,16 +222,15 @@ body {  }
 .pointers ul.point-list li figure img.pc { display: block; }
 .pointers ul.point-list li figure img.sp { display: none; }
 .pointers ul.point-list li p {
- display: table-cell;
+ display: block;
  font-size: 22px;
- line-height: 30px;
+ line-height: 22px;
  font-weight: bold;
- margin: 20px auto 0px;
+ margin: 36px auto;
  text-align: center;
- width: 300px;
+ width: 100%;
  text-align: center;
  vertical-align: middle;
- height: 60px;
 }
 .pointers .accent-points {
  background-image: url('../images/common/accent.png');
@@ -431,7 +421,7 @@ body {  }
  float: right;
 }
 .skills .skills-content p .img-pc { display: block; }
-.skills .skills-content p .img-sp { 
+.skills .skills-content p .img-sp {
  display: none;
  width: 125px;
 }
@@ -531,7 +521,7 @@ body {  }
  padding: 25px 0 21px;
  position: relative;
  text-align: left;
- text-shadow: 0px 2px 2px rgba(0,0,0, 0.3); 
+ text-shadow: 0px 2px 2px rgba(0,0,0, 0.3);
 }
 .franchise .outer h2 strong { font-size: 40px; }
 .franchise .outer h2 span { color: #ffff00; }
@@ -920,11 +910,11 @@ body {  }
  .lifetime .lifetime-content h2:after { right: -8px; width: 8px; }
  .lifetime .lifetime-content figure.lifetime-cover { margin: 15px auto 20px; width: 95%; }
  .lifetime .lifetime-content h3 { font-size: 15px; line-height: 15px; margin-bottom: 10px; }
- .lifetime .lifetime-content p { 
-  font-size: 12px; 
-  line-height: 24px; 
+ .lifetime .lifetime-content p {
+  font-size: 12px;
+  line-height: 24px;
   margin: 0 auto;
-  width: 85%; 
+  width: 85%;
  }
  .lifetime .lifetime-content p.pc { display: none; }
  .lifetime .lifetime-content p.sp { display: block; }
@@ -1045,7 +1035,7 @@ body {  }
  .franchise .outer .inner ul li p { font-size: .8rem; }
  .franchise .outer .inner a.btn {
   font-size: .8rem;
-  margin: 30px auto 0; 
+  margin: 30px auto 0;
   padding: 12px 0 10px;
   width: 65%;
  }
@@ -1219,11 +1209,11 @@ body {  }
  .lifetime .lifetime-content h2:after { right: -13px; width: 13px; }
  .lifetime .lifetime-content figure.lifetime-cover { margin: 15px auto 20px; width: 95%; }
  .lifetime .lifetime-content h3 { font-size: 30px; line-height: 30px; margin-bottom: 20px; }
- .lifetime .lifetime-content p { 
-  font-size: 21px; 
-  line-height: 42px; 
+ .lifetime .lifetime-content p {
+  font-size: 21px;
+  line-height: 42px;
   margin: 0 auto;
-  width: 85%; 
+  width: 85%;
  }
  .lifetime .lifetime-content p.pc { display: none; }
  .lifetime .lifetime-content p.sp { display: block; }
@@ -1247,11 +1237,11 @@ body {  }
   width: 100%;
 }
  .pointers ul.point-list li figure { height: 300px; margin-bottom: 10px; }
- .pointers ul.point-list li p { 
-  height: 60px; 
+ .pointers ul.point-list li p {
+  height: 60px;
   font-size: 34px;
-  line-height: 48px; 
-  width: 30%; 
+  line-height: 48px;
+  width: 30%;
  }
  .pointers .accent-points { bottom: -23px; height: 24px;}
  .stable { background-image: url(../images/common/bg01-sp.png); background-size: 100% 100%; padding-bottom: 65px; }
@@ -1356,7 +1346,7 @@ body {  }
  .franchise .outer .inner a.btn {
   font-size: 24px;
   line-height: 24px;
-  margin: 30px auto 0; 
+  margin: 30px auto 0;
   padding: 20px 0;
   width: 65%;
  }
