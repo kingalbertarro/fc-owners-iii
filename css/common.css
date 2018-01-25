@@ -98,6 +98,7 @@ body {  }
   position: relative;
   text-align: center;
 }
+.independent h2 img { display: block; margin: 0 auto; }
 .independent h2:after {
   background-image: url("../images/common/accent.png");
   bottom: -20px;
@@ -620,7 +621,7 @@ body {  }
   background-size: 100% 100%;
   display: block;
   float: right;
-  padding: 100px 66px 100px 66px;
+  padding: 66px 66px 100px 66px;
   position: relative;
   width: 995px;
   z-index: 999;
@@ -630,7 +631,7 @@ body {  }
   height: 286px;
   position: absolute;
   right: 108px;
-  top: 30px;
+  top: 38px;
   width: 250px;
   z-index: 0;
 }
@@ -639,6 +640,7 @@ body {  }
   font-size: 24px;
   font-weight: bold;
   line-height: 60px;
+  margin-top: 75px;
 }
 
 /* FRANCHISE */
@@ -1057,6 +1059,7 @@ span.nl-sp { display: block; }
   width: 60%;
 }
 .independent h2 { font-size: 22px; line-height: 22px; padding: 20px 0; }
+.independent h2 img { width: 50%; }
 .independent h2:after { bottom: -6px; height: 7px; background-size: 50px 7px; }
 .independent figure { margin: 35px auto 25px; width: 95%; }
 .independent figure img.pc { display: none; }
@@ -1272,7 +1275,7 @@ span.nl-sp { display: block; }
     width: 92%;
     z-index: 999;
 }
-.stable-income .stable-income-content .tricks p { font-size: 13px; line-height: 24px; }
+.stable-income .stable-income-content .tricks p { font-size: 13px; line-height: 24px; margin-top: 5px; }
 .stable-income .stable-income-content .model {
   height: auto;
   right: 10px;
@@ -1633,7 +1636,7 @@ span.nl-sp { display: block; }
       width: 92%;
       z-index: 999;
   }
-  .stable-income .stable-income-content .tricks p { font-size: 26px; line-height: 48px; }
+  .stable-income .stable-income-content .tricks p { font-size: 26px; line-height: 48px; margin-top: 2px; }
   .stable-income .stable-income-content .model {
     height: auto;
     right: 10px;
@@ -1824,7 +1827,7 @@ span.nl-sp { display: block; }
 .franchise .franchise-content a.btn { font-size: 20px; }
 .stable-income .stable-income-content { width: 95%; }
 .stable-income .stable-income-content .business-model { width: 530px; }
-.stable-income .stable-income-content .model { right: 2px; top: 125px; width: 250px; }
+.stable-income .stable-income-content .model { right: 2px; top: 132px; width: 250px; }
 .stable-income .stable-income-content .model img.sp { display: none; }
 .stable-income .stable-income-content .tricks { width: 710px; }
  .request h2 figure.form-title { margin: 0 auto 160px; width: 95%; }
