@@ -45,6 +45,7 @@ body {  }
  background-color: #00d929;
  border-bottom: 4px solid #00991c;
  border-radius: 30px;
+ box-shadow: 0 0 10px rgba(0,0,0, .75);  
  bottom: 16px;
  color: #fff;
  display: block;
@@ -88,7 +89,7 @@ body {  }
 }
 .independent h2 {
   background-color: #2f3d57;
-  color: #fff;
+  color: #ddf9ff;
   display: block;
   font-size: 48px;
   line-height: 48px;
@@ -137,6 +138,7 @@ body {  }
   z-index: 3;
 }
 .income .income-content {
+  box-shadow: 0 8px 6px -6px #000;
   background-color: #fff6e5;
   display: block;
   margin: 0 auto;
@@ -298,6 +300,7 @@ body {  }
  z-index: 2;
 }
 .pointers ul.point-list li {
+ box-shadow: 0 8px 6px -6px #000;
  background-color: #fff;
  display: block;
  float: left;
@@ -341,6 +344,7 @@ body {  }
   position: relative;
 }
 .no-sales .no-sales-content {
+  box-shadow: 0 8px 6px -6px #000;
   background-color: #fff;
   display: block;
   margin: 0 auto;
@@ -415,6 +419,7 @@ body {  }
   position: relative;
 }
 .easy-repeat .easy-repeat-content {
+  box-shadow: 0 8px 6px -6px #000;
   background-color: #fff;
   display: block;
   margin: 0 auto;
@@ -502,6 +507,7 @@ body {  }
   position: relative;
 }
 .takeover-sales .takeover-sales-content {
+  box-shadow: 0 8px 6px -6px #000;
   background-color: #fff;
   display: block;
   margin: 0 auto;
@@ -631,6 +637,7 @@ body {  }
  padding: 40px;
 }
 .franchise .franchise-content {
+  box-shadow: 0 8px 6px -6px #000;
   background-color: #ffeecc;
   display: block;
   margin: 0 auto;
